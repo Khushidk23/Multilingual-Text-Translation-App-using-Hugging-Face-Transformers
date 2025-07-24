@@ -1,8 +1,8 @@
-# 🌐 Multilingual Translator App
+# 🌐 Multilingual Text Translation App using Hugging Face Transformers
 
-This is a simple web-based multilingual text translation application built using [Gradio](https://gradio.app/) and [Hugging Face Transformers](https://huggingface.co/transformers/). It allows users to translate text between multiple languages including English, Hindi, Kannada, French, German, and Spanish using **free models and APIs from Hugging Face**.
+This is a simple web-based multilingual text translation application built using [Gradio](https://gradio.app/) and [Hugging Face Transformers](https://huggingface.co/transformers/). It supports translation between multiple languages including English, Hindi, Kannada, French, German, and Spanish using **free and publicly available models** from Hugging Face.
 
-✅ **No paid API key required — powered by free Hugging Face models and pipelines!**
+✅ **No paid API key required — powered by Hugging Face’s free and open-source model APIs.**
 
 ---
 
@@ -14,19 +14,20 @@ This is a simple web-based multilingual text translation application built using
   - Hindi ↔ Kannada
   - English → French, German, Spanish
   - German → English
-- Clean and simple user interface using Gradio
-- No login, no paid plans — uses free Hugging Face resources
-- Suitable for learning, academic projects, and demos
+- Clean and interactive web UI built with Gradio
+- No login or subscription required
+- 100% free to run locally or on Hugging Face Spaces
 
 ---
 
 ## 🔑 Free API Used
 
-This app uses **Hugging Face's free model inference pipeline** via the `transformers` library.
+This app uses **Hugging Face’s free Transformers pipeline** for translation.  
+It does **not require any API key or authentication**.
 
-- No paid API key is needed.
-- No API usage limits unless deployed on restricted infrastructure.
-- All models run locally (or in a Hugging Face Space) using open-source pretrained models.
+- Runs locally using `transformers` library.
+- Can be deployed to Hugging Face Spaces with free tiers.
+- Ideal for students, learners, and open-source developers.
 
 ---
 
@@ -51,5 +52,5 @@ This app uses **Hugging Face's free model inference pipeline** via the `transfor
 
 1. **Clone the repository**:
    ```bash
-   git clone https://huggingface.co/spaces/khushidk23/translator-app
-   cd translator-app
+   git clone https://huggingface.co/spaces/khushidk23/Multilingual-Text-Translation-App-using-Hugging-Face-Transformers
+   cd Multilingual-Text-Translation-App-using-Hugging-Face-Transformers
